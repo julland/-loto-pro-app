@@ -1,22 +1,19 @@
 {
   "name": "Loto Pro France",
   "short_name": "Loto Pro",
-  "description": "Analysez les tirages FDJ et générez des combinaisons intelligentes.",
-  "start_url": "/",
+  "description": "Analysez les tirages FDJ",
+  "start_url": "https://loto-pro-france.vercel.app",
+  "scope": "https://loto-pro-france.vercel.app",
   "display": "standalone",
   "background_color": "#070711",
   "theme_color": "#7c3aed",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "https://via.placeholder.com/192",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "https://via.placeholder.com/512",
+      "src": "https://loto-pro-france.vercel.app/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "lang": "fr"
